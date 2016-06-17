@@ -1,0 +1,24 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+    "name": "Transparent Textures Preview",
+    "version": "0.0.5",
+    "manifest_version": 2,
+    "description": "Preview tool for Transparent Textures.",
+    "icons": {
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "icon-32.png",
+        "default_title": "Transparent Textures Preview",
+        "default_popup": "popup.html"
+    },
+   "content_security_policy": "script-src 'self' https://api.github.com; object-src 'self'",
+    "permissions": [
+        "tabs",
+        "*://*/*"
+    ]
+}
