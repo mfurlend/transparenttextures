@@ -1,8 +1,7 @@
 {
-"update_url":"http://clients2.google.com/service/update2/crx",
     "name": "Transparent Textures Preview",
-    "version": "0.0.5",
-    "manifest_version": 2,
+    "version": "0.1",
+    "manifest_version": 1,
     "description": "Preview tool for Transparent Textures.",
     "icons": {
         "48": "icon-48.png",
